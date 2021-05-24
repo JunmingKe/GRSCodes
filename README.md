@@ -6,7 +6,7 @@ Please contact junmingke1994@gmail.com if you have any question.
 
 ## How to use
 
-// decoding
+> // decoding
 
 // The first line contains one prime number  which defines the field .
 
