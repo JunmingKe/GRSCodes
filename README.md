@@ -8,15 +8,15 @@ Please contact junmingke1994@gmail.com if you have any question.
 
 > // decoding
 > 
-> // The first line contains one prime number  which defines the field .
+> // The first line contains one prime number which defines the field .
 > 
-> // The second line contains two integers  and , parameters of the GRS code.
+> // The second line contains two integer, parameters of the GRS code.
 > 
-> // The third line contains  numbers separated by the spaces: . Each number is a non-zero element of  represented as an integer in the range .
+> // The third line contains numbers separated by the spaces. Each number is a non-zero element represented as an integer in the range.
 > 
-> // The fourth line contains  numbers separated by the spaces: . Each number is a non-zero element of  represented as an integer in the range .
+> // The fourth line contains numbers separated by the spaces. Each number is a non-zero element represented as an integer in the range.
 > 
-> // The fifth line contains  numbers separated by the spaces: . Each number is an element of  represented as an integer in the range .
+> // The fifth line contains numbers separated by the spaces. Each number is an element represented as an integer in the range.
 
 ```
         int p = 7;
