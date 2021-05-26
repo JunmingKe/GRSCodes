@@ -127,8 +127,7 @@ public class GRScodes {
         System.out.println(Arrays.toString(codeword));
 
     }
-
-    private static int[] derivate(int[] rTx, int p) {
+private static int[] derivate(int[] rTx, int p) {
         int[] derivativeTx = new int[rTx.length - 1];
         for (int i = 0; i < rTx.length - 1; i++) {
             derivativeTx[i] = (rTx[i + 1] * (i + 1)) % p;
@@ -172,7 +171,7 @@ public class GRScodes {
     private static int calculateFx(int i, int[] rTx, int p) {
         int valueFx = 0;
         for (int j = 0; j < rTx.length; j++) {
-            valueFx = valueFx + (int) (rTx[j] * (Math.pow(i,j)) % p) % p;
+            valueFx = valueFx + (int) ((rTx[j] * mathPow(i,j,p)) % p) % p;
         }
         return valueFx % p;
     }
@@ -306,7 +305,7 @@ public class GRScodes {
         {
             for (int j = 0; j < alpha.length; j++)
             {
-                H[j][i] = (int) ((Math.pow(alpha[j], i) % p) * v[j] % p);
+                H[j][i] = (int) (((mathPow(alpha[j], i, p) % p) * v[j]) % p);
             }
         }
         return H;
@@ -633,7 +632,6 @@ public class GRScodes {
         }
         return Sites;
     }
-
 
 }
 
